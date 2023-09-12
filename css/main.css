@@ -1,12 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+
+main{
+  background-color: antiquewhite;
+  padding-left: 1rem ;
+  width: 100%;
+}
+
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
 img{
   width: 400px;
-  box-shadow: black 4px 4px;
+  box-shadow: rgb(179, 178, 178) 5px 5px;
 }
 
 h1{
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-dl{
+dl{ 
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+footer{
+  background-color: antiquewhite;
+}
+
+dd{
+  padding: .7rem;
+}
+
+
